@@ -12,12 +12,11 @@ class Student
     CREATE TABLE IF NOT EXISTS songs(
       id INTEGER PRIMARY KEY,
       name TEXT,
-      grade 
+      grade TEXT
     )
+    SQL
 
-
-
-
- DB[:conn]
+      DB[:conn].execute(sql)
+      end
 
 end
