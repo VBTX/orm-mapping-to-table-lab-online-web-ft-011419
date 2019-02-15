@@ -36,4 +36,7 @@ class Student
       @id = DB[:conn].execute("SELECT id FROM students")[0][0]
     end
 
+  def self.create
+  end
+
   end
